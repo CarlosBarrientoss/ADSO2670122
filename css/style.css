@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(232, 199, 127);
+}
+
+.grid-container {
+    height: 350px;
+    background-color: rgba(204, 149, 91, 0.879);
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: 50px 50px;
+    gap: 10px ;
+    /* justify-content:end; */
+   
+
+}
+
+
+.grid-container div{
+background-color: rgba(240, 227, 212, 0.991);
+justify-content: center;
+padding: 20px;
+color: rgba(165, 112, 42, 0.756);
+text-align: center;
+
+}
+
+.item2 { 
+  grid-column: 2/ span 3;
+ }
