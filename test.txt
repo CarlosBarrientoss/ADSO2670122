@@ -1,1 +1,6 @@
 Natalia Rivera
+
+Primera prueba de Github
+-Git status
+-git clone
+-git 
