@@ -1,0 +1,22 @@
+
+.grid-containerc2 {
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+    gap :5px;
+}
+
+.grid-containerc2 div{
+    background-color: antiquewhite;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.item1c2{grid-area:header;}
+.item2c2{grid-area:menu;}
+.item3c2{grid-area:main;}
+.item4c2{grid-area:right;}
+.item5c2{grid-area:footer;}

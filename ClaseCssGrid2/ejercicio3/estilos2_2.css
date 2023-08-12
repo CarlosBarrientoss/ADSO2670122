@@ -1,0 +1,36 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+
+}
+
+.item4{
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+.item2{
+    grid-row-start: 2;
+    grid-column-start: 1;
+}
+
+.item3{
+    grid-row-start: 3;
+    grid-column-start: 1;
+}
+
+.item5{
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+.item6{
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+
+
+figure img{
+    width: 200px;
+    height: 200px;
+    
+}
