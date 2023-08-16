@@ -1,0 +1,84 @@
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows:100px 100px 100px 100px 100px;
+    
+}
+
+
+   
+
+
+.animales{
+    height: 100px;
+    width: 100px;
+}
+
+
+.item5{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.item10{
+    grid-row: 1/2 ;
+    grid-column: 3/4;
+}
+.item15{
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+.item20{
+    grid-row:1/2 ;
+    grid-column :  5/6;
+}
+.item6{
+    grid-row: 2 / 3;
+    grid-column: 2/3;    
+}
+.item11{
+    grid-row: 2 / 3;
+    grid-column: 3/4;
+}
+.item16{
+    grid-row: 2 / 3;
+    grid-column: 4/5;
+}
+.item21{
+    grid-row: 2 / 3;
+    grid-column: 5/6;
+}
+.item7{
+    grid-row: 3 / 4;
+    grid-column: 2/3;
+}
+.item12{
+    grid-row: 3 / 4;
+    grid-column: 3/4;
+}
+.item17{
+    grid-row: 3 / 4;
+    grid-column: 4/5;
+}
+.item22{
+    grid-row: 3 / 4;
+    grid-column: 5/6;
+}
+.item8{
+    grid-row: 4 / 5;
+    grid-column: 2/3;
+}
+.item13{
+    grid-row: 4 / 5;
+    grid-column: 3/4;
+}
+.item18{
+    grid-row: 4 / 5;
+    grid-column: 4/5;
+}
+.item23{
+    grid-row: 4 / 5;
+    grid-column: 5/6;
+}
+
+
