@@ -39,23 +39,31 @@
     'img1 img4 img7'
     'img2 img5 img8'
     'img3 img6 img9';
+
+    
+    width: min-content;
+    height: min-content;
+ 
 }
 .Grid-container div{
-    background-color:burlywood;
+
     align-content: center;
     width: fit-content;
     height: fit-content;
 
+
 }
 
 figure {
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-
-
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    width: 500px;
+    height: 300px;
 }
+
 .Imagen{
     width: 500px;
     height: 300px;
