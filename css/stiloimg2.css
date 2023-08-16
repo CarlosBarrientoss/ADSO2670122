@@ -1,0 +1,17 @@
+.imagen{
+    display: grid;
+    grid-template-areas: 
+    'item1 item2 item3'
+    'item4 item5 item6'
+    'item7 item8 item9';
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px 50px;
+}
+figure img{
+    width: 100px;
+    height: 50px;
+}
+
+
+
+
