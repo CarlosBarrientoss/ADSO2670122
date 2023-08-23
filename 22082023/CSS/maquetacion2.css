@@ -1,0 +1,10 @@
+.Grid-container{
+    display: grid;
+    background-color: antiquewhite;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150,1fr));
+}
+.Grid-container{
+    background-color: aquamarine;
+    
+}

@@ -1,0 +1,33 @@
+.gird_container{
+    display: grid;
+    background-color: antiquewhite;
+    gap: 5px;
+    border: 5px solid green;
+    grid-template-columns:  auto auto auto auto;
+    grid-template-areas: 'header header header header header'
+    'menu main main aside aside'
+    'menu footer footer footer footer' ;
+}
+
+.gird_container > *{
+    background-color: firebrick;
+    color: aliceblue;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+@media screen and (max-width:600px){
+    .gird_container > * {
+        background-color: darkgoldenrod;
+    }
+    .gird_container{
+        grid-template-columns:  100px auto;
+        grid-template-areas: 'header header'
+        'menu menu'
+        'main main'
+        'aside aside'
+        'footer footer' ;
+    }
+    
+}
