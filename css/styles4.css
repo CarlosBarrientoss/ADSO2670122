@@ -1,0 +1,44 @@
+.grid-container{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    gap: 10px;
+    border: 5px solid rgb(0, 255, 13);
+    grid-template-columns: auto auto auto auto;
+    grid-template-areas: "header header header header header"
+    "menu menu menu menu menu"
+    "main main main main main"
+    "aside aside aside aside aside"
+    "footer footer footer footer footer";
+}
+
+.grid-container > *{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    height: 100px;
+    
+}
+
+
+
+@media screen and (max-width:600px) {
+    .grid-container > *{
+        background-color: rgb(32, 48, 197);
+    }
+    .grid-container {
+        grid-template-areas:"header header header header header"
+        "menu menu menu menu menu"
+        "main main main main main"
+        "aside aside aside aside aside"
+        "footer footer footer footer footer";      
+            
+    }
+
+
+   
+}
+
