@@ -1,0 +1,22 @@
+.grid-container{
+
+    background-color: darkgray;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    
+    }
+    
+    .grid-container > div{
+    
+    background-color: darkolivegreen;
+    border: 5px solid black;
+    color: white;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    
+    }
